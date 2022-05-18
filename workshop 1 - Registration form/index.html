@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="title">
+        Register Here
+    </div>
+    <div class="social_media">
+        <div class="item">
+            <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="item">
+            <i class="fab fa-twitter"></i>
+        </div>
+        <div class="item">
+            <i class="fab fa-google-plus-g"></i>
+        </div>
+    </div>
+
+    <div class="form">
+        <div class="input_field">
+            <input type="text" placeholder="Full Name" class="input">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="input_field">
+            <input type="text" placeholder="Username" class="input">
+            <i class="fa solid fa-fingerprint"></i>
+        </div>
+
+
+        <form action="/action_page.php">
+            <div class="input_field">
+                <input type="password" placeholder="Password" class="input" minlength="8"><br><br>
+                <i class="fas fa-lock"></i>
+
+            </div>
+        </form>
+
+        <div class="input_field">
+            <input type="number" placeholder="Age" class="input">
+            <i class="fas fa-baby"></i>
+        </div>
+        <div class="input_field">
+            <input type="text" placeholder="Email" class="input">
+            <i class="far fa-envelope"></i>
+        </div>
+
+        <label for="Gender">Gender:</label>
+        <select id="Gender" name="Gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+            <option value="refuse to state">refuse to state</option>
+        </select>
+
+
+        <div class="empty line"> </div>
+        <label for="Accept terms & condition"> Accept terms & conditions</label><br>
+        <input type="checkbox" id="Accept terms & condition" name="Accept terms & condition" value="">
+
+        <div class="btn">
+
+
+            <a href="#">Register</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
